@@ -1,0 +1,233 @@
+2023-05-01 19:20:54.054  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1234, name=test), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@a77fee1, com.zevseg.web.entity.Branch@2860fc86])] -- 97397df7-5ae7-4f14-8960-f0604975d042 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:20:54.054  WARN  UserServiceImpl:18 - [addUser][output][Unable to add branch] -- 97397df7-5ae7-4f14-8960-f0604975d042 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:20:55.055  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1234, name=test), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@410a8d62, com.zevseg.web.entity.Branch@2e293b1c])] -- 6d446529-e5ae-4cfc-ac11-99cefed299f2 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:20:56.056  WARN  UserServiceImpl:18 - [addUser][output][Unable to add branch] -- 6d446529-e5ae-4cfc-ac11-99cefed299f2 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:20:56.056  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1234, name=test), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@3f6d7f2e, com.zevseg.web.entity.Branch@4f26a297])] -- bcf5265c-7210-42b4-b893-ac7eaa13cf6a -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:20:57.057  WARN  UserServiceImpl:18 - [addUser][output][Unable to add branch] -- bcf5265c-7210-42b4-b893-ac7eaa13cf6a -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:40:18.018  INFO  AuthServiceImpl:15 - [login][input][LoginRequest(email=admin@mail.com, password=12345678)] -- 3f50174b-e3b4-4956-9215-dd296a9ca5a8 -- 
+2023-05-01 19:40:18.018  INFO  AuthServiceImpl:15 - [authenticate][input][User(id=a445c717-f3f1-4387-999b-935cec85b523, email=admin@mail.com)] -- 3f50174b-e3b4-4956-9215-dd296a9ca5a8 -- 
+2023-05-01 19:40:19.019  INFO  AuthServiceImpl:15 - [authenticate][output][LoginResponse(user=User{id='a445c717-f3f1-4387-999b-935cec85b523', password='$2a$12$myoFBID9w06Qo5PQ/lTJXuaRnQOrwJAo16GR8FexQQ/eUZJKJ5T2a', email='admin@mail.com', firstname='Admin', lastname='Admin'}, accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhNDQ1YzcxNy1mM2YxLTQzODctOTk5Yi05MzVjZWM4NWI1MjMiLCJhdXRoIjoiUk9MRV9BRE1JTiIsImlhdCI6MTY4Mjk0MTIxOSwiZXhwIjoxNjgyOTQ0ODE5fQ.6vuKvObKdZDTkbsqEmPuDOJJce5iP0gNYMtopJ6E8KA)] -- 3f50174b-e3b4-4956-9215-dd296a9ca5a8 -- 
+2023-05-01 19:40:19.019  INFO  AuthServiceImpl:15 - [login][output][User{id='a445c717-f3f1-4387-999b-935cec85b523', password='$2a$12$myoFBID9w06Qo5PQ/lTJXuaRnQOrwJAo16GR8FexQQ/eUZJKJ5T2a', email='admin@mail.com', firstname='Admin', lastname='Admin'}] -- 3f50174b-e3b4-4956-9215-dd296a9ca5a8 -- 
+2023-05-01 19:40:28.028  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1234, name=test), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@5321f4ec, com.zevseg.web.entity.Branch@20148b38])] -- a3835cb6-cf8f-4d03-94f4-ff06dbaa98cc -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:40:28.028  WARN  UserServiceImpl:18 - [addUser][output][Тооцооны төв нэмэх боломжгүй байна] -- a3835cb6-cf8f-4d03-94f4-ff06dbaa98cc -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:40:49.049  INFO  RankServiceImpl:15 - [findAll][input][] -- 56880978-a7f0-42ba-ad5e-b5ad723b25c0 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:40:49.049  INFO  RankServiceImpl:15 - [findAll][input][size=15] -- 56880978-a7f0-42ba-ad5e-b5ad723b25c0 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:41:22.022  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@54c0d133, com.zevseg.web.entity.Branch@323876ae])] -- 605c4e32-50ef-4bf9-a825-0964cd3037f9 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:41:23.023  WARN  UserServiceImpl:18 - [addUser][output][Тооцооны төв нэмэх боломжгүй байна] -- 605c4e32-50ef-4bf9-a825-0964cd3037f9 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:49:18.018  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@7c991718, com.zevseg.web.entity.Branch@52bb5ffe])] -- 3a52d4df-3a9e-4f79-8233-61faf7997ffd -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:49:18.018  WARN  UserServiceImpl:18 - [addUser][output][Тооцооны төв нэмэх боломжгүй байна] -- 3a52d4df-3a9e-4f79-8233-61faf7997ffd -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:49:19.019  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@3680eeb2, com.zevseg.web.entity.Branch@10269fcd])] -- 8be0dce3-ec30-412e-8213-8e97116f4679 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:49:19.019  WARN  UserServiceImpl:18 - [addUser][output][Тооцооны төв нэмэх боломжгүй байна] -- 8be0dce3-ec30-412e-8213-8e97116f4679 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:49:20.020  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@156fe705, com.zevseg.web.entity.Branch@1c065527])] -- 420101ea-8506-4bf5-8236-a944ddae7df3 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:49:20.020  WARN  UserServiceImpl:18 - [addUser][output][Тооцооны төв нэмэх боломжгүй байна] -- 420101ea-8506-4bf5-8236-a944ddae7df3 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:49:21.021  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@7c716503, com.zevseg.web.entity.Branch@219263e])] -- 028ba431-85e5-46fa-a503-237b24ceacac -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:49:21.021  WARN  UserServiceImpl:18 - [addUser][output][Тооцооны төв нэмэх боломжгүй байна] -- 028ba431-85e5-46fa-a503-237b24ceacac -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:49:32.032  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@608f45ef, com.zevseg.web.entity.Branch@47355785])] -- f47ac526-6461-4e7b-bb4c-92d373fa11e7 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:49:33.033  WARN  UserServiceImpl:18 - [addUser][output][Тооцооны төв нэмэх боломжгүй байна] -- f47ac526-6461-4e7b-bb4c-92d373fa11e7 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:49:34.034  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@6a6755e5, com.zevseg.web.entity.Branch@5b548e8f])] -- 411a96f6-edc8-4e80-b026-45241806854b -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:49:34.034  WARN  UserServiceImpl:18 - [addUser][output][Тооцооны төв нэмэх боломжгүй байна] -- 411a96f6-edc8-4e80-b026-45241806854b -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:49:45.045  INFO  RankServiceImpl:15 - [findAll][input][] -- e50db55f-4b5a-4fe6-94f7-f373d2d1329b -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:49:45.045  INFO  RankServiceImpl:15 - [findAll][input][size=15] -- e50db55f-4b5a-4fe6-94f7-f373d2d1329b -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:51:59.059  INFO  BranchServiceImpl:15 - [findAll][input][page=0, size=1] -- b1ce05a9-fe8a-4f83-8a6b-8701d00791f6 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:51:59.059  INFO  BranchServiceImpl:15 - [findAll][input][totalElements=1, size=1] -- b1ce05a9-fe8a-4f83-8a6b-8701d00791f6 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:52:45.045  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@4ac22904])] -- ec75dd7e-60eb-476d-a2e2-f521df1ba66a -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:52:45.045  INFO  UserServiceImpl:15 - [addUser][output][Created] -- ec75dd7e-60eb-476d-a2e2-f521df1ba66a -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:52:46.046  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@1593a56])] -- ae378812-11b5-4c97-9c9b-b697163ad4c2 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:52:47.047  INFO  UserServiceImpl:15 - [addUser][output][Created] -- ae378812-11b5-4c97-9c9b-b697163ad4c2 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:53:35.035  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@782142a9])] -- d5bfa39c-20e4-4f75-8b90-1472b5cd590e -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:53:35.035  INFO  UserServiceImpl:15 - [addUser][output][Created] -- d5bfa39c-20e4-4f75-8b90-1472b5cd590e -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:53:37.037  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@68f8d3e1])] -- e3490c02-1620-4e0c-8a24-05ee9de70eb7 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:53:37.037  INFO  UserServiceImpl:15 - [addUser][output][Created] -- e3490c02-1620-4e0c-8a24-05ee9de70eb7 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:54:38.038  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=1] -- f8c0db63-e880-4950-9bf7-d028833b82a4 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:54:38.038  INFO  UserServiceImpl:15 - [findAll][input][totalElements=5, size=1] -- f8c0db63-e880-4950-9bf7-d028833b82a4 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:56:57.057  INFO  UserServiceImpl:15 - [addSoldier][input][SoldierAddRequest(rank=Rank(id=1, name=Байлдагч), image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@74f2c791])] -- 1d795a07-e7c7-4cee-b647-1a4ef897ec80 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:56:57.057  FATAL UserServiceImpl:24 - [addSoldier][output][could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] -- 1d795a07-e7c7-4cee-b647-1a4ef897ec80 -- a445c717-f3f1-4387-999b-935cec85b523
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:276)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220)
+	at com.sun.proxy.$Proxy152.save(Unknown Source)
+	at com.zevseg.web.serviceImpl.UserServiceImpl.addSoldier(UserServiceImpl.java:158)
+	at com.zevseg.web.controller.UserController.addSoldier(UserController.java:94)
+	at com.zevseg.web.controller.UserController$$FastClassBySpringCGLIB$$b78cff88.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.zevseg.web.controller.UserController$$EnhancerBySpringCGLIB$$791e82f8.addSoldier(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.zevseg.web.filter.AccessFilter.doFilter(AccessFilter.java:26)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.zevseg.web.filter.JwtTokenFilter.doFilterInternal(JwtTokenFilter.java:39)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3375)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3937)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:107)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:723)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3303)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2438)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 123 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'email' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	... 144 more
+2023-05-01 19:57:09.009  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@7a1dbabd])] -- 75798b89-e1ed-4279-9d71-2c2aeac24165 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:57:09.009  INFO  UserServiceImpl:15 - [addUser][output][Created] -- 75798b89-e1ed-4279-9d71-2c2aeac24165 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:57:15.015  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@633ba6e3])] -- 528c7e04-2c77-4b7c-9d65-90204805f293 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:57:16.016  INFO  UserServiceImpl:15 - [addUser][output][Created] -- 528c7e04-2c77-4b7c-9d65-90204805f293 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:57:16.016  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@283c033c])] -- ba0a9ef5-d8dc-4c2e-b7ac-0365b9d2a4aa -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:57:17.017  INFO  UserServiceImpl:15 - [addUser][output][Created] -- ba0a9ef5-d8dc-4c2e-b7ac-0365b9d2a4aa -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:57:17.017  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@485a4c41])] -- 1a8b04fc-1767-499a-85c4-6e4e8aa7ae56 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:57:17.017  INFO  UserServiceImpl:15 - [addUser][output][Created] -- 1a8b04fc-1767-499a-85c4-6e4e8aa7ae56 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:57:21.021  INFO  AuthServiceImpl:15 - [login][input][LoginRequest(email=admin@mail.com, password=12345678)] -- edd9b2ca-0b54-40fe-b0d3-6eef29d7faf4 -- 
+2023-05-01 19:57:21.021  INFO  AuthServiceImpl:15 - [authenticate][input][User(id=a445c717-f3f1-4387-999b-935cec85b523, email=admin@mail.com)] -- edd9b2ca-0b54-40fe-b0d3-6eef29d7faf4 -- 
+2023-05-01 19:57:22.022  INFO  AuthServiceImpl:15 - [authenticate][output][LoginResponse(user=User{id='a445c717-f3f1-4387-999b-935cec85b523', password='$2a$12$myoFBID9w06Qo5PQ/lTJXuaRnQOrwJAo16GR8FexQQ/eUZJKJ5T2a', email='admin@mail.com', firstname='Admin', lastname='Admin'}, accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhNDQ1YzcxNy1mM2YxLTQzODctOTk5Yi05MzVjZWM4NWI1MjMiLCJhdXRoIjoiUk9MRV9BRE1JTiIsImlhdCI6MTY4Mjk0MjI0MiwiZXhwIjoxNjgyOTQ1ODQyfQ.baqGNXl2DySNgfrnRE7aqtZTJRBeeUexqRyZvV-JCTc)] -- edd9b2ca-0b54-40fe-b0d3-6eef29d7faf4 -- 
+2023-05-01 19:57:22.022  INFO  AuthServiceImpl:15 - [login][output][User{id='a445c717-f3f1-4387-999b-935cec85b523', password='$2a$12$myoFBID9w06Qo5PQ/lTJXuaRnQOrwJAo16GR8FexQQ/eUZJKJ5T2a', email='admin@mail.com', firstname='Admin', lastname='Admin'}] -- edd9b2ca-0b54-40fe-b0d3-6eef29d7faf4 -- 
+2023-05-01 19:57:26.026  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@2995474a])] -- 60b58a2e-29f6-4ced-a1af-636a48136485 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:57:26.026  INFO  UserServiceImpl:15 - [addUser][output][Created] -- 60b58a2e-29f6-4ced-a1af-636a48136485 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:57:39.039  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@6011eac3])] -- 669bc93d-44fc-410c-8890-5313dcc97b6e -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:57:39.039  INFO  UserServiceImpl:15 - [addUser][output][Created] -- 669bc93d-44fc-410c-8890-5313dcc97b6e -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:57:53.053  INFO  BranchServiceImpl:15 - [findAll][input][page=0, size=1] -- 645fab45-64cb-4756-a07c-a564d67a50ac -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:57:53.053  INFO  BranchServiceImpl:15 - [findAll][input][totalElements=1, size=1] -- 645fab45-64cb-4756-a07c-a564d67a50ac -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:58:04.004  INFO  UserServiceImpl:15 - [addUser][input][UserAddRequest(rank=Rank(id=1, name=Байлдагч), email=test@gmail.com, password=Test123!@#, image=test.png, firstname=test, lastname=test, branches=[com.zevseg.web.entity.Branch@f1c7795])] -- 279fc885-3de9-42b6-946c-a9c30435e1ab -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:58:04.004  INFO  UserServiceImpl:15 - [addUser][output][Created] -- 279fc885-3de9-42b6-946c-a9c30435e1ab -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:58:19.019  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=1] -- 3b72b139-95c5-4e30-bb7d-e4c3218fc1b5 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-01 19:58:19.019  INFO  UserServiceImpl:15 - [findAll][input][totalElements=12, size=1] -- 3b72b139-95c5-4e30-bb7d-e4c3218fc1b5 -- a445c717-f3f1-4387-999b-935cec85b523
