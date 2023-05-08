@@ -2,6 +2,8 @@ package com.zevseg.web.serviceImpl;
 
 import com.zevseg.web.entity.Branch;
 import com.zevseg.web.entity.Rank;
+import com.zevseg.web.exception.BusinessException;
+import com.zevseg.web.helper.Localization;
 import com.zevseg.web.repository.RankRepository;
 import com.zevseg.web.service.RankService;
 import com.zevseg.web.util.Logger;
@@ -21,10 +23,36 @@ import java.util.List;
 public class RankServiceImpl implements RankService {
 
     RankRepository repository;
+    Localization localization;
 
     @Autowired
-    public RankServiceImpl(RankRepository repository) {
+    public RankServiceImpl(RankRepository repository, Localization localization) {
         this.repository = repository;
+        this.localization = localization;
+    }
+
+    /**
+     * @param id  Long
+     * @param req {@link HttpServletRequest}
+     * @return {@link Branch}
+     * @author Sainjargal Ishdorj
+     **/
+
+    @Override
+    public Rank find(Long id, HttpServletRequest req) throws BusinessException {
+        try {
+            Logger.info(getClass().getName(), "[find][input][id=" + id + "]");
+            Rank rank = repository.findById(id)
+                    .orElseThrow(() -> new BusinessException(localization.getMessage("data.not.found"), "Rank not found"));
+            Logger.info(getClass().getName(), "[find][output][]");
+            return rank;
+        } catch (BusinessException ex) {
+            Logger.warn(getClass().getName(), "[find][output][" + ex.getMessage() + "]");
+            throw ex;
+        }catch (Exception ex) {
+            Logger.fatal(getClass().getName(), "[find][output][" + ex.getMessage() + "]", ex);
+            throw ex;
+        }
     }
 
     /**

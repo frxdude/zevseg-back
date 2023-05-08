@@ -7,6 +7,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Optional;
 
 /**
  * BranchService
@@ -15,6 +16,8 @@ import javax.servlet.http.HttpServletRequest;
  **/
 
 public interface BranchService {
+
+    Branch find(Long id, HttpServletRequest req) throws BusinessException;
 
     Page<Branch> findAll(int page, int size, HttpServletRequest req);
 

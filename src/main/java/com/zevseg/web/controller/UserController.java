@@ -3,8 +3,10 @@ package com.zevseg.web.controller;
 import com.zevseg.web.dto.ErrorResponse;
 import com.zevseg.web.dto.request.SoldierAddRequest;
 import com.zevseg.web.dto.request.UserAddRequest;
+import com.zevseg.web.dto.request.UserUpdateRequest;
 import com.zevseg.web.dto.request.auth.LoginResponse;
 import com.zevseg.web.dto.request.ChangePasswordRequest;
+import com.zevseg.web.entity.Rank;
 import com.zevseg.web.entity.Role;
 import com.zevseg.web.entity.User;
 import com.zevseg.web.exception.BusinessException;
@@ -49,8 +51,11 @@ public class UserController {
     @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_USER')")
     public ResponseEntity<Object> findAll(@RequestParam int page,
                                           @RequestParam int size,
+                                          @RequestParam(required = false, defaultValue = "") String searchPattern,
+                                          @RequestParam(required = false, defaultValue = "0") Long rankId,
+                                          @RequestParam(required = false, defaultValue = "0") Long branchId,
                                           HttpServletRequest req) {
-        return ResponseEntity.ok().body(service.findAll(page, size, req));
+        return ResponseEntity.ok().body(service.findAll(searchPattern, rankId, branchId, page, size, req));
     }
 
     @ApiOperation(value = "Хэрэглэгч мэдээлэл татах. | ", notes = "")
@@ -102,10 +107,10 @@ public class UserController {
             @ApiResponse(code = 403, response = ErrorResponse.class, message = "{} Object буцна"),
             @ApiResponse(code = 500, response = ErrorResponse.class, message = "{} Object буцна"),
     })
-    @RequestMapping(value = "", method = RequestMethod.PUT)
+    @RequestMapping(value = "/{id}/update", method = RequestMethod.POST)
     @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
-    public ResponseEntity<Object> update(@Valid @RequestBody User updateRequest, HttpServletRequest req) throws BusinessException {
-        return service.update(updateRequest, req);
+    public ResponseEntity<Object> update(@PathVariable("id") String id, @Valid @RequestBody UserUpdateRequest updateRequest, HttpServletRequest req) throws BusinessException {
+        return service.update(id, updateRequest, req);
     }
 
     @ApiOperation(value = "Хэрэглэгчийн мэдээлэл устгах. | ROLE_ADMIN")
@@ -116,7 +121,7 @@ public class UserController {
             @ApiResponse(code = 403, response = ErrorResponse.class, message = "{} Object буцна"),
             @ApiResponse(code = 500, response = ErrorResponse.class, message = "{} Object буцна"),
     })
-    @RequestMapping(value = "{id}", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
     @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
     public ResponseEntity<Object> delete(@PathVariable String id, HttpServletRequest req) throws BusinessException {
         return service.delete(id, req);

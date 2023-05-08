@@ -1,0 +1,54 @@
+2023-05-02 23:44:32.032  INFO  AuthServiceImpl:15 - [login][input][LoginRequest(email=admin@mail.com, password=12345678)] -- e5fc89e6-1d4d-435b-b56f-60054db4aa8b -- 
+2023-05-02 23:44:32.032  INFO  AuthServiceImpl:15 - [authenticate][input][User(id=a445c717-f3f1-4387-999b-935cec85b523, email=admin@mail.com)] -- e5fc89e6-1d4d-435b-b56f-60054db4aa8b -- 
+2023-05-02 23:44:33.033  INFO  AuthServiceImpl:15 - [authenticate][output][LoginResponse(user=User{id='a445c717-f3f1-4387-999b-935cec85b523', password='$2a$12$myoFBID9w06Qo5PQ/lTJXuaRnQOrwJAo16GR8FexQQ/eUZJKJ5T2a', email='admin@mail.com', firstname='Admin', lastname='Admin'}, accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhNDQ1YzcxNy1mM2YxLTQzODctOTk5Yi05MzVjZWM4NWI1MjMiLCJhdXRoIjoiUk9MRV9BRE1JTiIsImlhdCI6MTY4MzA0MjI3MywiZXhwIjoxNjgzMDQ1ODczfQ.LBOSVBOFCTq1qZ_RCfub71Kdt_oPmh4E1CB9RKvghLY)] -- e5fc89e6-1d4d-435b-b56f-60054db4aa8b -- 
+2023-05-02 23:44:33.033  INFO  AuthServiceImpl:15 - [login][output][User{id='a445c717-f3f1-4387-999b-935cec85b523', password='$2a$12$myoFBID9w06Qo5PQ/lTJXuaRnQOrwJAo16GR8FexQQ/eUZJKJ5T2a', email='admin@mail.com', firstname='Admin', lastname='Admin'}] -- e5fc89e6-1d4d-435b-b56f-60054db4aa8b -- 
+2023-05-02 23:44:42.042  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 2650c8ec-5e4f-46a2-aff4-45554f9b5a58 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:44:42.042  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- 2650c8ec-5e4f-46a2-aff4-45554f9b5a58 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:44:55.055  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 1e2e4135-ee3e-4f7d-afad-c7df3327dd64 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:44:55.055  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- 1e2e4135-ee3e-4f7d-afad-c7df3327dd64 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:44:58.058  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 2200a135-d47f-4653-ba40-7c3d6a79520f -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:44:58.058  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- 2200a135-d47f-4653-ba40-7c3d6a79520f -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:45:18.018  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- a33bf3ac-0116-431a-b8f2-a4e38bde42c5 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:45:18.018  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- a33bf3ac-0116-431a-b8f2-a4e38bde42c5 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:47:55.055  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 1ffb84b0-e6e8-44e2-9035-e38686f13898 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:47:55.055  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 38222062-a7b7-460a-8b88-a35c29c5d8f2 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:47:55.055  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- 1ffb84b0-e6e8-44e2-9035-e38686f13898 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:47:55.055  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- 38222062-a7b7-460a-8b88-a35c29c5d8f2 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:47:55.055  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 8d54c335-e4fe-4bad-a81d-2638662a849f -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:47:55.055  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 04c6b45c-5458-4465-b892-d9afd91e946c -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:47:55.055  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- 8d54c335-e4fe-4bad-a81d-2638662a849f -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:47:55.055  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- 04c6b45c-5458-4465-b892-d9afd91e946c -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:47:55.055  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 9af394d9-9195-42cd-8daf-e656f9c45519 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:47:55.055  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 0afe5255-d78c-474a-802e-67bf652491e2 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:47:55.055  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- 9af394d9-9195-42cd-8daf-e656f9c45519 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:47:55.055  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- 0afe5255-d78c-474a-802e-67bf652491e2 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:47:57.057  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- fea00a58-536e-4a57-8747-1b0bb735dc73 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:47:57.057  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- fea00a58-536e-4a57-8747-1b0bb735dc73 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:48:02.002  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- ee8e86df-0b7d-4f48-a7a0-b242bdeb08d3 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:48:02.002  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- ee8e86df-0b7d-4f48-a7a0-b242bdeb08d3 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:48:19.019  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 0215b907-e521-4643-b599-c70f21469598 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:48:19.019  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- 0215b907-e521-4643-b599-c70f21469598 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:55:48.048  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 2b0d3dc5-3e43-43c6-b03d-268357520c51 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:55:48.048  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- 2b0d3dc5-3e43-43c6-b03d-268357520c51 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:55:48.048  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 24f9799c-e659-4548-85af-72bb40cb5244 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:55:48.048  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- 24f9799c-e659-4548-85af-72bb40cb5244 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:55:48.048  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- a45a3206-d8ed-4f0c-8226-91a2f66f9944 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:55:48.048  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- a45a3206-d8ed-4f0c-8226-91a2f66f9944 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:57:33.033  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- ff097f11-8f9a-4ff7-8445-34a4f314b307 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:57:33.033  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 6fab4976-df9d-49a4-ad07-077b252c8397 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:57:33.033  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- d5c14038-b778-4b29-8db7-b9dfa1aeea32 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:57:33.033  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- ff097f11-8f9a-4ff7-8445-34a4f314b307 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:57:33.033  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- 6fab4976-df9d-49a4-ad07-077b252c8397 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:57:33.033  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- d5c14038-b778-4b29-8db7-b9dfa1aeea32 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:57:33.033  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- baa7918c-b565-43ad-91dc-441d29bb4aa4 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:57:33.033  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- c059fb93-4eaf-475b-b8c4-234da8eeaaf6 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:57:33.033  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- baa7918c-b565-43ad-91dc-441d29bb4aa4 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:57:33.033  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- c059fb93-4eaf-475b-b8c4-234da8eeaaf6 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:57:39.039  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 5d0eb67c-8709-4cd1-9362-5fbdfdfeb645 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:57:39.039  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- 5d0eb67c-8709-4cd1-9362-5fbdfdfeb645 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:58:01.001  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 5be12a04-145f-49f1-b41c-eea2e1dd8ff6 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:58:01.001  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- 5be12a04-145f-49f1-b41c-eea2e1dd8ff6 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:58:03.003  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- aae442e6-1bbd-4bf2-8e78-95163e7db028 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:58:03.003  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- aae442e6-1bbd-4bf2-8e78-95163e7db028 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:58:15.015  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 1d98f2d9-d63d-42ad-92b4-715c2746ad52 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-02 23:58:15.015  INFO  UserServiceImpl:15 - [findAll][input][totalElements=23, size=10] -- 1d98f2d9-d63d-42ad-92b4-715c2746ad52 -- a445c717-f3f1-4387-999b-935cec85b523

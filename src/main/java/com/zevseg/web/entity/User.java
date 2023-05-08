@@ -59,11 +59,9 @@ public class User extends Audit {
     @NotNull(message = "{val.not.null}")
     private List<Role> roles;
 
-    @ManyToMany(fetch = FetchType.LAZY)
-    @JoinTable(name = "USER_BRANCHES",
-            joinColumns = { @JoinColumn(name = "USER_ID") },
-            inverseJoinColumns = { @JoinColumn(name = "BRANCH_ID") })
-    private List<Branch> branches = new ArrayList<>();
+    @OneToOne
+    @JoinColumn(name = "BRANCH_ID")
+    private Branch branch;
 
     @PrePersist
     private void prePersist() {

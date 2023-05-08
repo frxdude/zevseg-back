@@ -1,0 +1,88 @@
+2023-05-03 21:09:34.034  INFO  AuthServiceImpl:15 - [login][input][LoginRequest(email=admin@mail.com, password=12345678)] -- 71e11a47-dc6c-458a-8326-d8f6af677404 -- 
+2023-05-03 21:09:34.034  INFO  AuthServiceImpl:15 - [authenticate][input][User(id=a445c717-f3f1-4387-999b-935cec85b523, email=admin@mail.com)] -- 71e11a47-dc6c-458a-8326-d8f6af677404 -- 
+2023-05-03 21:09:34.034  INFO  AuthServiceImpl:15 - [authenticate][output][LoginResponse(user=User{id='a445c717-f3f1-4387-999b-935cec85b523', password='$2a$12$myoFBID9w06Qo5PQ/lTJXuaRnQOrwJAo16GR8FexQQ/eUZJKJ5T2a', email='admin@mail.com', firstname='Admin', lastname='Admin'}, accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhNDQ1YzcxNy1mM2YxLTQzODctOTk5Yi05MzVjZWM4NWI1MjMiLCJhdXRoIjoiUk9MRV9BRE1JTiIsImlhdCI6MTY4MzExOTM3NCwiZXhwIjoxNjgzMTIyOTc0fQ.yjcXFE3Cz1m9bg-ib8GAVNFg_gqcqBsHAV-kLJYLOJk)] -- 71e11a47-dc6c-458a-8326-d8f6af677404 -- 
+2023-05-03 21:09:34.034  INFO  AuthServiceImpl:15 - [login][output][User{id='a445c717-f3f1-4387-999b-935cec85b523', password='$2a$12$myoFBID9w06Qo5PQ/lTJXuaRnQOrwJAo16GR8FexQQ/eUZJKJ5T2a', email='admin@mail.com', firstname='Admin', lastname='Admin'}] -- 71e11a47-dc6c-458a-8326-d8f6af677404 -- 
+2023-05-03 21:09:36.036  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 81d81416-d088-4de6-bae8-c2367c980328 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:09:36.036  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- 81d81416-d088-4de6-bae8-c2367c980328 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:10:16.016  INFO  AuthServiceImpl:15 - [login][input][LoginRequest(email=admin@mail.com, password=12345678)] -- 4bc06463-4cc3-4edf-bab1-7640a48dfff6 -- 
+2023-05-03 21:10:16.016  INFO  AuthServiceImpl:15 - [authenticate][input][User(id=a445c717-f3f1-4387-999b-935cec85b523, email=admin@mail.com)] -- 4bc06463-4cc3-4edf-bab1-7640a48dfff6 -- 
+2023-05-03 21:10:17.017  INFO  AuthServiceImpl:15 - [authenticate][output][LoginResponse(user=User{id='a445c717-f3f1-4387-999b-935cec85b523', password='$2a$12$myoFBID9w06Qo5PQ/lTJXuaRnQOrwJAo16GR8FexQQ/eUZJKJ5T2a', email='admin@mail.com', firstname='Admin', lastname='Admin'}, accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhNDQ1YzcxNy1mM2YxLTQzODctOTk5Yi05MzVjZWM4NWI1MjMiLCJhdXRoIjoiUk9MRV9BRE1JTiIsImlhdCI6MTY4MzExOTQxNywiZXhwIjoxNjgzMTIzMDE3fQ.NoWggjKyz7K_pEjEk8N47Q1y-4NH2F6cmvAfuD77RcI)] -- 4bc06463-4cc3-4edf-bab1-7640a48dfff6 -- 
+2023-05-03 21:10:17.017  INFO  AuthServiceImpl:15 - [login][output][User{id='a445c717-f3f1-4387-999b-935cec85b523', password='$2a$12$myoFBID9w06Qo5PQ/lTJXuaRnQOrwJAo16GR8FexQQ/eUZJKJ5T2a', email='admin@mail.com', firstname='Admin', lastname='Admin'}] -- 4bc06463-4cc3-4edf-bab1-7640a48dfff6 -- 
+2023-05-03 21:10:42.042  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 45181a6f-4832-44c6-a740-1dd1151588f7 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:10:42.042  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- 45181a6f-4832-44c6-a740-1dd1151588f7 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:10:54.054  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 7c399d16-8ad1-40cb-a8df-1d9afee12ac1 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:10:54.054  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- 7c399d16-8ad1-40cb-a8df-1d9afee12ac1 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:12:01.001  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- ace13bff-dee8-460d-8402-46ed1cfca430 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:12:01.001  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- ace13bff-dee8-460d-8402-46ed1cfca430 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:13:54.054  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 97eb6a6a-5c88-44f9-8432-4d5105f8faa0 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:13:54.054  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- 97eb6a6a-5c88-44f9-8432-4d5105f8faa0 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:34:14.014  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- a87517ba-257b-41ea-a056-495ffae8f7e1 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:34:14.014  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- a87517ba-257b-41ea-a056-495ffae8f7e1 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:39:50.050  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 255f2578-45fb-46cb-8ac7-a17f8e616a03 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:39:50.050  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- 255f2578-45fb-46cb-8ac7-a17f8e616a03 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:44:01.001  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- fbde9242-0383-44c9-94f4-fc496e14208a -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:44:01.001  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- fbde9242-0383-44c9-94f4-fc496e14208a -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:44:24.024  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- ce58d3f2-5b19-4520-850c-5466be6f64ab -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:44:24.024  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- ce58d3f2-5b19-4520-850c-5466be6f64ab -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:44:58.058  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 64b3be64-f64b-4c72-aa47-72d2e7cbcb70 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:44:58.058  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- 64b3be64-f64b-4c72-aa47-72d2e7cbcb70 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:46:00.000  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 9937b0eb-10b2-44ad-a3de-be2aafe8c291 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:46:00.000  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- 9937b0eb-10b2-44ad-a3de-be2aafe8c291 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:46:25.025  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 6dd8da5e-9153-45c6-bd0a-d389a5d3320c -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:46:25.025  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- 6dd8da5e-9153-45c6-bd0a-d389a5d3320c -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:46:28.028  INFO  UserServiceImpl:15 - [findAll][input][page=1, size=10] -- ac96d39e-dfa3-4619-949d-d3ce5bc44305 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:46:28.028  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- ac96d39e-dfa3-4619-949d-d3ce5bc44305 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:46:31.031  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 2366475c-e8e1-4591-8984-edd85d6b4424 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:46:31.031  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- 2366475c-e8e1-4591-8984-edd85d6b4424 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:46:34.034  INFO  UserServiceImpl:15 - [findAll][input][page=1, size=10] -- 3857a3d4-9b32-4637-8885-1f3b0e9bd986 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:46:34.034  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- 3857a3d4-9b32-4637-8885-1f3b0e9bd986 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:46:44.044  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 8aab6b6f-579e-40b8-b63b-55788f5ef043 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:46:44.044  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- 8aab6b6f-579e-40b8-b63b-55788f5ef043 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:46:54.054  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 9fd4943c-9ff3-487d-9ad3-205ea15409ec -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:46:54.054  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- 9fd4943c-9ff3-487d-9ad3-205ea15409ec -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:46:56.056  INFO  UserServiceImpl:15 - [findAll][input][page=1, size=10] -- ca1b0514-088f-4fd0-b348-87bae176e0e2 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:46:56.056  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- ca1b0514-088f-4fd0-b348-87bae176e0e2 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:48:33.033  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- eaa1b558-6b3f-4bde-8808-855e8f0348c0 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:48:33.033  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- eaa1b558-6b3f-4bde-8808-855e8f0348c0 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:48:47.047  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 60a63f5f-54b4-4bba-9d0a-ec169a7dac25 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:48:47.047  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- 60a63f5f-54b4-4bba-9d0a-ec169a7dac25 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:49:20.020  INFO  AuthServiceImpl:15 - [login][input][LoginRequest(email=admin@mail.com, password=123456789)] -- 0d15f92d-b3b8-41a9-9bab-51d4f3aa6a68 -- 
+2023-05-03 21:49:20.020  INFO  AuthServiceImpl:15 - [authenticate][input][User(id=a445c717-f3f1-4387-999b-935cec85b523, email=admin@mail.com)] -- 0d15f92d-b3b8-41a9-9bab-51d4f3aa6a68 -- 
+2023-05-03 21:49:20.020  WARN  AuthServiceImpl:18 - [authenticate][output][null] -- 0d15f92d-b3b8-41a9-9bab-51d4f3aa6a68 -- 
+2023-05-03 21:49:20.020  WARN  AuthServiceImpl:18 - [login][output][null] -- 0d15f92d-b3b8-41a9-9bab-51d4f3aa6a68 -- 
+2023-05-03 21:49:23.023  INFO  AuthServiceImpl:15 - [login][input][LoginRequest(email=admin@mail.com, password=12345678912345678)] -- 5d40ab92-34ae-41b3-b286-91ca7558b634 -- 
+2023-05-03 21:49:23.023  INFO  AuthServiceImpl:15 - [authenticate][input][User(id=a445c717-f3f1-4387-999b-935cec85b523, email=admin@mail.com)] -- 5d40ab92-34ae-41b3-b286-91ca7558b634 -- 
+2023-05-03 21:49:23.023  WARN  AuthServiceImpl:18 - [authenticate][output][null] -- 5d40ab92-34ae-41b3-b286-91ca7558b634 -- 
+2023-05-03 21:49:23.023  WARN  AuthServiceImpl:18 - [login][output][null] -- 5d40ab92-34ae-41b3-b286-91ca7558b634 -- 
+2023-05-03 21:49:32.032  INFO  AuthServiceImpl:15 - [login][input][LoginRequest(email=admin@mail.com, password=12345678)] -- 70b73899-e43b-49d5-8292-c1285ff6f515 -- 
+2023-05-03 21:49:32.032  INFO  AuthServiceImpl:15 - [authenticate][input][User(id=a445c717-f3f1-4387-999b-935cec85b523, email=admin@mail.com)] -- 70b73899-e43b-49d5-8292-c1285ff6f515 -- 
+2023-05-03 21:49:33.033  INFO  AuthServiceImpl:15 - [authenticate][output][LoginResponse(user=User{id='a445c717-f3f1-4387-999b-935cec85b523', password='$2a$12$myoFBID9w06Qo5PQ/lTJXuaRnQOrwJAo16GR8FexQQ/eUZJKJ5T2a', email='admin@mail.com', firstname='Admin', lastname='Admin'}, accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhNDQ1YzcxNy1mM2YxLTQzODctOTk5Yi05MzVjZWM4NWI1MjMiLCJhdXRoIjoiUk9MRV9BRE1JTiIsImlhdCI6MTY4MzEyMTc3MywiZXhwIjoxNjgzMTI1MzczfQ.VE-N3D-iIDPcCC5WoRUDhiqqPGMPJeGA6kJxepwsiB0)] -- 70b73899-e43b-49d5-8292-c1285ff6f515 -- 
+2023-05-03 21:49:33.033  INFO  AuthServiceImpl:15 - [login][output][User{id='a445c717-f3f1-4387-999b-935cec85b523', password='$2a$12$myoFBID9w06Qo5PQ/lTJXuaRnQOrwJAo16GR8FexQQ/eUZJKJ5T2a', email='admin@mail.com', firstname='Admin', lastname='Admin'}] -- 70b73899-e43b-49d5-8292-c1285ff6f515 -- 
+2023-05-03 21:49:37.037  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 62c77738-e961-4932-8a97-23bfef82f70c -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:49:37.037  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- 62c77738-e961-4932-8a97-23bfef82f70c -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:50:12.012  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- f7d7546b-7d8c-4d61-94b0-2023d6643dcb -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:50:12.012  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- f7d7546b-7d8c-4d61-94b0-2023d6643dcb -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:50:18.018  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- bfed1a2c-468c-4730-923f-1ff081bec9a4 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:50:18.018  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- bfed1a2c-468c-4730-923f-1ff081bec9a4 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:50:27.027  INFO  UserServiceImpl:15 - [findAll][input][page=1, size=10] -- fc396b65-5770-4e28-84b9-b5472dadcbdd -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:50:27.027  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- fc396b65-5770-4e28-84b9-b5472dadcbdd -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:50:31.031  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 41684ba9-dd68-4c56-87d6-f9d916d48f15 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:50:31.031  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- 41684ba9-dd68-4c56-87d6-f9d916d48f15 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:50:33.033  INFO  UserServiceImpl:15 - [findAll][input][page=1, size=10] -- 872f07eb-f8be-4d8d-9c64-7ead8592f730 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:50:33.033  INFO  UserServiceImpl:15 - [findAll][input][totalElements=20, size=10] -- 872f07eb-f8be-4d8d-9c64-7ead8592f730 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:50:56.056  INFO  UserServiceImpl:15 - [addSoldier][input][SoldierAddRequest(rank=Rank(id=3, name=Дэд түрүүч), image=C:\fakepath\android-2.png, firstname=duk, lastname=duk, branches=[com.zevseg.web.entity.Branch@2af011cb])] -- de3b2847-b284-4b93-b5c0-6d0042bacc0d -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:50:56.056  INFO  UserServiceImpl:15 - [addSoldier][output][Created] -- de3b2847-b284-4b93-b5c0-6d0042bacc0d -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:51:00.000  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 3132161d-1c12-4f5a-b44f-6901f6be1301 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:51:00.000  INFO  UserServiceImpl:15 - [findAll][input][totalElements=21, size=10] -- 3132161d-1c12-4f5a-b44f-6901f6be1301 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:53:55.055  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 6b16a5eb-fe35-4d72-8cfe-d4fbf69a23a9 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:53:55.055  INFO  UserServiceImpl:15 - [findAll][input][totalElements=21, size=10] -- 6b16a5eb-fe35-4d72-8cfe-d4fbf69a23a9 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:55:55.055  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- cb9949d5-7fa5-42a4-95e7-8d56b0945d09 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:55:55.055  INFO  UserServiceImpl:15 - [findAll][input][totalElements=21, size=10] -- cb9949d5-7fa5-42a4-95e7-8d56b0945d09 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:58:07.007  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- dd6682af-9636-494b-8ae7-13ca9674985f -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:58:07.007  INFO  UserServiceImpl:15 - [findAll][input][totalElements=21, size=10] -- dd6682af-9636-494b-8ae7-13ca9674985f -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:59:21.021  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 2d5ecd01-cf9c-4512-947a-cb8ec81e6ab2 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:59:21.021  INFO  UserServiceImpl:15 - [findAll][input][totalElements=21, size=10] -- 2d5ecd01-cf9c-4512-947a-cb8ec81e6ab2 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:59:37.037  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- e2246a28-f174-4443-8c35-6510fa81a407 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:59:37.037  INFO  UserServiceImpl:15 - [findAll][input][totalElements=21, size=10] -- e2246a28-f174-4443-8c35-6510fa81a407 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:59:59.059  INFO  UserServiceImpl:15 - [findAll][input][page=0, size=10] -- 3a8ab456-7e5c-4a3b-be9a-9c563998e299 -- a445c717-f3f1-4387-999b-935cec85b523
+2023-05-03 21:59:59.059  INFO  UserServiceImpl:15 - [findAll][input][totalElements=21, size=10] -- 3a8ab456-7e5c-4a3b-be9a-9c563998e299 -- a445c717-f3f1-4387-999b-935cec85b523

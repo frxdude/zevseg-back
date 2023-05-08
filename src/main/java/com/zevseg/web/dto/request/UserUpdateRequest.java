@@ -2,15 +2,18 @@ package com.zevseg.web.dto.request;
 
 import com.zevseg.web.entity.Branch;
 import com.zevseg.web.entity.Rank;
+import com.zevseg.web.entity.Role;
 import lombok.*;
-import org.hibernate.validator.constraints.Length;
 
-import javax.validation.constraints.*;
+import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * SoldierAddRequest
+ * UserUpdateRequest
  *
  * @author Sainjargal Ishdorj
  **/
@@ -21,25 +24,22 @@ import java.util.List;
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
-public class SoldierAddRequest {
+public class UserUpdateRequest {
 
-    @NotNull(message = "{val.not.null}")
-    private Long rank;
-
-    @NotNull(message = "{val.not.null}")
-    private String image;
+    private String email;
 
     @Pattern(regexp = "([A-Za-zА-Яа-яөүӨҮёЁ. -]+)", message = "{val.letters}")
-    @Length(min = 0, max = 50, message = "{val.length}")
     @NotNull(message = "{val.not.null}")
     private String firstname;
 
     @Pattern(regexp = "([A-Za-zА-Яа-яөүӨҮёЁ. -]+)", message = "{val.letters}")
-    @Length(min = 0, max = 50, message = "{val.length}")
     @NotNull(message = "{val.not.null}")
     private String lastname;
 
-    @NotNull(message = "{val.not.null}")
+    private String image;
+
+    private Long rank;
+
     private Long branch;
 
 }

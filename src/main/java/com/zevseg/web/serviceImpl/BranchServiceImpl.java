@@ -35,6 +35,30 @@ public class BranchServiceImpl implements BranchService {
     }
 
     /**
+     * @param id  Long
+     * @param req {@link HttpServletRequest}
+     * @return {@link Branch}
+     * @author Sainjargal Ishdorj
+     **/
+
+    @Override
+    public Branch find(Long id, HttpServletRequest req) throws BusinessException {
+        try {
+            Logger.info(getClass().getName(), "[find][input][id=" + id + "]");
+            Branch branch = repository.findById(id)
+                    .orElseThrow(() -> new BusinessException(localization.getMessage("data.not.found"), "Branch not found"));
+            Logger.info(getClass().getName(), "[find][output][]");
+            return branch;
+        } catch (BusinessException ex) {
+            Logger.warn(getClass().getName(), "[find][output][" + ex.getMessage() + "]");
+            throw ex;
+        }catch (Exception ex) {
+            Logger.fatal(getClass().getName(), "[find][output][" + ex.getMessage() + "]", ex);
+            throw ex;
+        }
+    }
+
+    /**
      * @param page int
      * @param size int
      * @param req  {@link HttpServletRequest}
@@ -59,7 +83,7 @@ public class BranchServiceImpl implements BranchService {
     public void add(BranchAddRequest addRequest, HttpServletRequest req) throws BusinessException {
         try {
             Logger.info(getClass().getName(), "[add][input][" + addRequest.toString() + "]");
-            if(repository.findByName(addRequest.getName()).isPresent())
+            if (repository.findByName(addRequest.getName()).isPresent())
                 throw new BusinessException(localization.getMessage("data.already"), "Branch already exists");
             Logger.info(getClass().getName(), "[add][output][Created]");
         } catch (BusinessException ex) {

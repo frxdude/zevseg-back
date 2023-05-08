@@ -61,6 +61,9 @@ public class UserSpecification implements Specification<User> {
             case ".%":
                 return builder.like(
                         root.get(criteria.getKey()), criteria.getValue().toString() + "%");
+            case "<branch>":
+                return builder.equal(
+                        root.join(criteria.getKey(), JoinType.INNER).get("id"), criteria.getValue().toString());
             case "%.":
                 return builder.like(
                         root.get(criteria.getKey()), "%" + criteria.getValue().toString());
