@@ -4,7 +4,7 @@ import lombok.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 /**
- * @author mmunkhsuld
+ * @author Sainjargal Ishdorj
  */
 @NoArgsConstructor
 @AllArgsConstructor
@@ -13,11 +13,11 @@ import javax.validation.constraints.Size;
 @Setter
 public class ChangePasswordRequest {
 
-    @NotBlank(message = "val.not.null")
-    @Size(min = 4, message = "val.length")
+    @NotBlank(message = "{val.not.null}")
+    @Size(min = 6, max = 30, message = "{val.length}")
     private String oldPassword;
 
-    @NotBlank(message = "val.not.null")
-    @Size(min = 4, message = "val.length")
+    @NotBlank(message = "{val.not.null}")
+    @Size(min = 6, max = 30, message = "{val.length}")
     private String newPassword;
 }
